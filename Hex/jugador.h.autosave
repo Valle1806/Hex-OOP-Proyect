@@ -1,0 +1,22 @@
+#ifndef JUGADOR_H
+#define JUGADOR_H
+
+#include "Tablero.h"
+
+class Jugador{
+    protected:
+        int posX;
+        int posY;
+    public:
+        Jugador();
+        Jugador(int posX, int posY);
+        ~Jugador();
+        int getPosX();
+        int getPosY();
+        void setPosX(int posX);
+        void setPosY(int posY);
+        void jugar(Tablero * &T);
+};
+
+#endif
+

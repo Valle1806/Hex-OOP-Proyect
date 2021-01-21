@@ -1,0 +1,23 @@
+#include "jugador.h"
+
+Jugador::Jugador(){
+    posX = 0;
+    posY = 0:
+}
+
+Jugador::Jugador(int posX, int posY){
+    this->posX = posX;
+    this->posY = posY;
+}
+
+Jugador::~Jugador(){}
+
+int Jugador::getPosX(){
+    return posX;
+}
+
+int Jugador::getPosY(){
+    return posY;
+}
+
+void Jugador:

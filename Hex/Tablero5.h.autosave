@@ -1,0 +1,13 @@
+#ifndef TABLERO5_H
+#define TABLERO5_H
+
+class Tablero5{
+    private:
+        int matriz[5][5];    
+    public:
+        Tablero5();
+        Tablero5(int matriz[5][5]);
+        int getPos
+};
+
+#endif // TABLERO5_H
